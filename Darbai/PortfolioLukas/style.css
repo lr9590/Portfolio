@@ -1,0 +1,504 @@
+/** {
+  border: 2px solid red;
+}*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.header {
+  background-color: #00004F;
+  height: 100px;
+  width: 100%;
+  text-align: left;
+
+
+
+}
+
+ul.navigation {
+  margin-top: 0;
+
+}
+
+.nav {
+  display: inline;
+  text-height: 20px;
+  text-transform: uppercase;
+  margin: 0 20px;
+  color: white;
+  position: relative;
+  top: 40px;
+  left: 2px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 2px;
+  overflow: hidden;
+
+}
+
+.nav:hover, .nav.kalba:hover {
+  background-color: #fff;
+  color: #514AAC;
+
+}
+
+.kalba {
+  position: relative;
+  left: 640px;
+  margin: 5px;
+  border: none;
+}
+
+.jumbo {
+  text-align: center;
+  margin: 80px 0px 20px 0px;
+
+}
+
+#apiemane {
+  font-size: 70px;
+  line-height: 1.5em;
+  font-family: cursive;
+
+}
+
+#Iam {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.jumbo h1 {
+  font-size: 25px;
+  color: #514AAC;
+}
+
+.jumbo h2 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.jumbo img {
+  height: 210px;
+  width: 150px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.download {
+  text-align: center;
+}
+.download-btn {
+  width: 10%;
+  padding: 10px;
+  border: 1px solid #514AAC;
+  color: #514AAC;
+  font-size: 14px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+ }
+
+.download-btn:hover {
+  opacity: 0.7; }
+
+.pavadinimas {
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+.apiemane {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 3px 10px;
+}
+.apiemane p {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  line-height: 1.5em;
+
+}
+
+.develop {
+  width: 50px;
+}
+
+#pirmas {
+  position: relative;
+  left: 7%;
+  top: 31px;
+}
+
+#antras {
+  position: relative;
+  left: 90%;
+  bottom: 25px;
+
+}
+
+.antraste {
+  text-align: center;
+  margin: auto;
+  border-bottom: 2px solid black;
+  width: 80%;
+}
+
+.slidebars {
+  text-align: center;
+  margin: auto 120px;
+  display: none;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+  text-align: center;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+/*.col  {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  margin: 40px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  min-width: 284px;
+}*/
+
+/*.col p {
+  padding: 0px;
+  width: 70%;
+  margin: auto;
+}*/
+
+/*.container {
+  text-align: center;
+}*/
+/*.darba {
+  text-align: center;
+}*/
+
+#carousel .cloud9-item, #buttons button {
+  cursor: pointer;
+}
+#buttons button {
+  background-color: #0000FF;
+  color: #fff;
+}
+
+#buttons button:hover {
+  background-color: #1E85D2;
+}
+
+/*#carousel {
+  overflow: visible; !important
+}*/
+.stulpeliai  {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 25%;
+  margin: 40px 15px;
+  display: inline-block;
+
+}
+
+
+footer {
+  background-color: #00004F;
+  height: 70px;
+  width: 100%;
+
+}
+.copy {
+  text-height: 20px;
+  width: 120px;
+  height: 40px;
+  margin: auto;
+  color: #fff;
+  /*border: 2px solid white;
+  border-radius: 10px;*/
+  padding: 0;
+  padding-top: 0px;
+  position: relative;
+  top: 20px;
+
+}
+.copy p {
+  margin: 0;
+  vertical-align: middle;
+}
+
+
+
+
+@-webkit-keyframes Rotate {
+  0% {-webkit-transform:rotate(0deg);}
+  4% {-webkit-transform:rotate(-45deg);}
+  8% {-webkit-transform:rotate(0deg);}
+  12% {-webkit-transform:rotate(-45deg);}
+  16% {-webkit-transform:rotate(0deg);}
+  20% {-webkit-transform:rotate(-45deg);}
+  24% {-webkit-transform:rotate(0deg);}
+  100% {-webkit-transform:rotate(0deg);}
+}
+
+@keyframes Rotate {
+  0% {transform:rotate(0deg);}
+  4% {transform:rotate(-45deg);}
+  8% {transform:rotate(0deg);}
+  12% {transform:rotate(-45deg);}
+  16% {transform:rotate(0deg);}
+  20% {transform:rotate(-45deg);}
+  24% {transform:rotate(0deg);}
+  100% {transform:rotate(0deg);}
+}
+
+
+/*#email {
+  width: 28px;
+  height: 28px;
+}
+#lr {
+  display: inline;
+  font-size: 14px;
+}
+
+#pastas {
+  position: relative;
+  left: -7px;
+}*/
+
+.kontakt {
+  text-align: center;
+  display: inline-block;
+  margin: 20px 80px;
+}
+.tekstas {
+    font-size: 16px;
+}
+.contacticon {
+  color: blue;
+  /*iconu spalvas surasyti*/
+}
+
+#fb {
+
+}
+
+#phone {
+  color: #077DB4;
+}
+#mail {
+
+}
+
+#skype {
+  color: #077DB4;
+}
+
+.remas {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: none;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.karusele {
+  height: 450px;
+  width: 100%;
+  margin: auto;
+  /*gal ir section ne tik karusele display none??*/
+  display: block;
+  /*visibility: hidden;*/
+  /*margin-bottom: -500px;*/
+}
+
+#buttons {
+  margin: auto;
+  text-align: center;
+}
+.left, .right {
+  width: 50px;
+  height: 30px;
+  margin: 10px;
+  position: relative;
+  top: 400px;
+}
+/*------------------------------------------------RESPONSIVE------------------------*/
+@media screen and (max-width: 720px) {
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+  .nav {
+	box-sizing: border-box;
+  padding: 15px;
+	text-align: center;
+	display: block;
+	width: 40%;
+	margin: 20px auto;
+
+
+
+  }
+
+
+ .navigation {
+   padding-left: 0;
+   margin-top: 0;
+   padding-top: 1px;
+  }
+
+
+
+
+
+  .header {
+    background-color: #00004F;
+    height: 70%;
+    width: 100%;
+    text-align: center;
+	  margin: auto;
+    margin-top: 0;
+}
+  .jumbo, .apiemane {
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+
+  }
+  /*.col, .stulpeliai {
+    width: 80%;
+
+  }*/
+
+ .kontakt {
+   margin: 20px auto;
+
+ }
+}
+
+/*@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1.0;
+}*/
+@media screen and (max-width: 1290px) {
+  .nav.kalba {
+    display: inline;
+    text-height: 20px;
+    text-transform: uppercase;
+    margin: 0px 20px;
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 2px;
+    /*border: 2px solid white;
+    border-radius: 10px;*/
+    padding: 2px;
+
+  }
+  #carousel, #buttons {
+    display: none;
+  }
+  }
+
+
+@media screen and (max-width: 1200px) {
+   .stulpeliai {
+    width: 80%;
+  }
+  }
