@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darbų sąrašas</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Darbų sąrašas</h1>
+    <div>
+      <button onclick="handlers.addTodo()">Pridėti</button>
+      <input class="new-todo" id="addTodoTextInput" type="text" placeholder="Ką reikia padaryti?" autofocus />
+    </div>
+    <div>
+      <button onclick="handlers.changeTodo()">Keisti sąrašą</button>
+      <input id="changeTodoPositionInput" placeholder="darbo numeris" type="number" min="0" />
+      <input id="changeTodoTextInput" placeholder="darbas" type="text"/>
+    </div>
+    <div>
+      <button onclick="handlers.toggleCompleted()">Atliktas darbas</button>
+      <input id="toggleCompletedPositionInput" placeholder="darbo numeris" type="number" min="0"  />
+    </div>
+    <ol>
+    </ol>
+  <script src="main.js"></script>
+  </body>
+</html>

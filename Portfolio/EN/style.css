@@ -1,0 +1,412 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* ----------------------------------HEADER----------------------- */
+.header {
+  background-color: #00004F;
+  height: 80px;
+  width: 100%;
+  text-align: left;
+}
+
+ul.navigation {
+  margin-top: 0;
+}
+
+.nav {
+  display: inline;
+  text-height: 20px;
+  text-transform: uppercase;
+  margin: 0 20px;
+  color: #fff;
+  position: relative;
+  top: 40px;
+  left: 2px;
+  padding: 2px;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav:hover, .kalba:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.kalba.EN {
+  border-bottom: 2px solid #fff;
+}
+
+.kalba {
+  position: relative;
+  left: 640px;
+  margin: 5px;
+  border: none;
+}
+/* ----------------------------------VISKAS APIE MANE----------------------- */
+.jumbo {
+  text-align: center;
+  margin: 60px 0 20px 0;
+}
+
+#apie {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.jumbo h1 {
+  font-size: 25px;
+  color: #514AAC;
+  margin: 0;
+}
+
+.jumbo h2 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.jumbo img {
+  height: 210px;
+  width: 150px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.download {
+  text-align: center;
+}
+.download-btn {
+  width: 10%;
+  padding: 10px;
+  border: 1px solid #514AAC;
+  color: #514AAC;
+  font-size: 14px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+ }
+
+.download-btn:hover {
+  opacity: 0.7; }
+
+.pavadinimas {
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.apiemane {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 3px 10px;
+}
+
+.apiemane p {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  line-height: 1.5em;
+  text-align: justify;
+  padding: 0 20px 20px 20px;
+}
+/* ----------------------------------SEKCIJU PAVADINIMAI----------------------- */
+.pirmas {
+  position: relative;
+  left: 9%;
+  top: 45px;
+}
+
+.antras {
+  position: relative;
+  left: 89%;
+  bottom: 29px;
+}
+
+.antraste {
+  text-align: center;
+  margin: auto;
+  border-bottom: 2px solid black;
+  width: 80%;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.antraste:hover {
+	color: #514AAC;
+}
+/* ----------------------------------IGUDZIAI----------------------- */
+.slidebars {
+  text-align: center;
+  margin: auto 120px;
+  display: none;
+}
+
+.skillbar {
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+  text-align: center;
+	width: 100%;
+	background: #eee;
+	height: 35px;
+	border-radius: 3px;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-ms-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+	transition: 0.4s linear;
+	-webkit-transition-property: width, background-color;
+	-moz-transition-property: width, background-color;
+	-ms-transition-property: width, background-color;
+	-o-transition-property: width, background-color;
+	transition-property: width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+  width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+/* ----------------------------------DARBAI----------------------- */
+/*--------------------------------owl karusele------*/
+.owl-theme {
+  display: none;
+}
+.owl-carousel {
+  width: 83%;
+  margin: auto;
+}
+.owl-nav {
+  margin: 0px;
+}
+.item {
+ margin: 10px;
+}
+.carousel-caption {
+  text-align: center;
+  margin: 0;
+}
+.carousel-caption h3 {
+  margin: 0;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.btn-info:hover {
+  background-color: #31B0D5;
+}
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+span {
+  font-weight: normal;
+}
+/* ----------------------------------Kontaktai----------------------- */
+.remas {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: none;
+  margin: 20px auto;
+  text-align: center;
+}
+.kontakt {
+  text-align: center;
+  display: inline-block;
+  margin: 20px 80px;
+  font-family: 'Poppins', sans-serif;
+}
+.tekstas {
+    font-size: 16px;
+}
+.contacticon {
+  color: blue;
+}
+/* ----------------------------------Footer----------------------- */
+footer {
+  background-color: #00004F;
+  height: 70px;
+  width: 100%;
+}
+.copy {
+  text-height: 20px;
+  width: 180px;
+  height: 40px;
+  margin: auto;
+  color: #fff;
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+.copy p {
+  font-family: 'Poppins', sans-serif;
+}
+
+#phone {
+  color: #077DB4;
+}
+
+#skype {
+  color: #077DB4;
+}
+
+/*-----------------------------------RESPONSIVE------------------------*/
+@media screen and (max-width: 720px) {
+
+  .header {
+    min-height: 70%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navigation {
+    padding-left: 0;
+    margin-top: 0;
+    padding-top: 1px;
+  }
+
+  .navigation li {
+    padding: 15px;
+    text-align: center;
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+
+  .nav:hover, .nav.kalba:hover {
+    background-color: #fff;
+    color: #514AAC;
+  }
+
+  .nav.kalba.EN {
+    color: #514AAC;
+    background-color: #fff;
+  }
+
+  .jumbo, .apiemane {
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .apiemane p {
+  font-size: 14px;
+  text-align: center;
+  }
+
+  .pirmas {
+    position: relative;
+    left: 3%;
+    top: 45px;
+  }
+
+  .slidebars {
+    margin: auto 20px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+
+  .nav.kalba {
+    display: inline;
+    text-height: 20px;
+    text-transform: uppercase;
+    margin: 0px 20px;
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 2px;
+    padding: 2px;
+  }
+
+}

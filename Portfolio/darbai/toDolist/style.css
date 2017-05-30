@@ -1,0 +1,76 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	background: #F5F5F5;
+	color: #4d4d4d;
+	min-width: 230px;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-weight: 300;
+	background-image: url('images/todolist.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+div, li {
+	margin: 10px;
+}
+
+h1 {
+	font-family: 'Anton', sans-serif;
+	font-size: 36px;
+	margin-left: 20px;
+	margin-bottom: 60px;
+	width: 100%;
+	color: #1C312C;
+	font-weight: bold;
+}
+
+.deleteButton {
+	color: #fff;
+	background-color: #EA4335;
+}
+
+.deleteButton:hover {
+  background-color: #ED1818
+}
+
+button {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+		display: inline-block;
+		padding: 5px 10px;
+		margin-bottom: 0;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 1.4;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		background-image: none;
+		border: 1px solid transparent;
+		border-radius: 4px;
+}
+
+button:hover {
+  background-color: #31B0D5;
+}

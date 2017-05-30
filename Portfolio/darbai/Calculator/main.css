@@ -1,0 +1,48 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  background-image: url("images/c.jpg");
+  background-size: cover;
+}
+
+#calculator {
+  background-color: #323D55;
+  max-width: 500px;
+  width: 240px;
+  margin: auto;
+}
+
+.js-operator, .js-number, .js-result {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+}
+
+#js-screen {
+  width: 100%;
+}
+
+fieldset {
+  border: none;
+}
+
+.button-large {
+  width: 104px;
+}
+
+h1 {
+  text-align: center;
+  color: #E9E9E9;
+  font-size: 100px;
+  margin: 20px auto;
+  width: 500px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}

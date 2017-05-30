@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  text-align: center;
+  color: #FDF2E9;
+  background-image: url("sky.jpg");
+  background-size: cover;
+  
+}
+
+.btn {
+  background-color: #FAF804;
+  border: 0px;
+  color: #0056A9;
+  margin: 5px;
+}
+
+.btn:hover{
+  background-color:  #FAF804;
+  opacity: 0.8;
+  color: #0056A9;
+}
+
+.btn:focus{
+    background: #FAF804;
+    border: 0px;
+
+}
+
+h1{
+  font-size: 55px;
+}
+
+p {
+  font-size: 25px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>tax calculator</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <form>
+        <label> Metai  </label>
+        <select name="mokestiniai_metai" id="mokestiniai_metai" class="input-small">
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+        </select> </br>
+        <label> Atlyginimas  </label>
+        <div>
+            <label> <input type="radio" name="uzdarbis" id="uzdarbis1" value="1" checked="checked" />Ant popieriaus</label>
+            <label> <input type="radio" name="uzdarbis" id="uzdarbis2" value="2" />I rankas</label>
+        </div>
+        <label> <span id="uzdarbistext">Ant popieriaus</span></label>
+        <div>
+            <input type="number" id="alga" name="alga" min="0" value="0.00" /> €
+        </div>
+        <label> Kaip skaičiuoti NPD?  </label>
+        <div>
+            <label class="radio"> <input type="radio" name="npdskaiciavimas" id="npd1" value="1" checked="checked" />paskaičiuos sistema</label>
+            <label class="radio"> <input type="radio" name="npdskaiciavimas" id="npd2" value="2" />nurodysiu pats</label>
+        </div>
+        <div id="vaikupasirinkimas">
+            <label> Kiek auginate vaikų?</label>
+            <div>
+                <select name="vaikai" id="vaikai">
+                <option  value="0">0</option>
+                <option  value="1">1</option>
+                <option  value="2">2</option>
+                <option  value="3">3</option>
+                <option  value="4">4</option>
+                <option  value="5">5</option>
+                <option  value="6">6</option>
+                <option  value="7">7</option>
+                <option  value="8">8</option>
+                <option  value="9">9</option>
+                <option  value="10">10</option>
+              </select>
+            </div>
+            <div>
+                <label> Vaikus auginate</label>
+                <div id="augina">
+                    <label> <input type="radio" name="auginimas" id="augina1" value="1" checked="checked" />vienas</label>
+                    <label> <input type="radio" name="auginimas" id="augina2" value="2" />su sutuoktiniu</label>
+                </div>
+            </div>
+        </div>
+        <div id="npdIvedimas" style="display: none">
+            <label> Taikomas NPD</label>
+            <div>
+                <input type="number" name="taikomas_npd" id="taikomas_npd" min="0" value="0.00" /> €
+            </div>
+        </div>
+        <div>
+            <label>2 % papildomas pensijos kaupimas </label>
+            <div>
+                <input type="checkbox" name="pensijos_kaupimas" id="pensijos_kaupimas" value="1" />
+            </div>
+        </div>
+    </form>
+    <form>
+        <div class="atlyginimas">
+            <h4>Alga ant popieriaus: <span class="atlyginimas"></span> €</h4>
+        </div>
+        <div class="NPD">
+            <h4>Pritaikytas NPD: <span class="NPD"></span> €</h4>
+        </div>
+        <div class="PNPD">
+            <h4>Pritaikytas PNPD: <span class="PNPD"></span> €</h4>
+        </div>
+        <div class="pajamuTax">
+            <h4>Pajamų mokestis 15%: <span class="pajamuTax"></span> €</h4>
+        </div>
+        <div class="sveikatosTax">
+            <h4>Sodra. Sveikatos draudimas 6%: <span class="sveikatosTax"></span> €</h4>
+        </div>
+        <div class="socTax">
+            <h4>Sodra. Pencijų ir soc. draudimas 3%: <span class="socTax"></span> €</h4>
+        </div>
+        <div class="algairankas">
+            <h4>Alga į rankas: <span class="algairankas"></span> €</h4>
+        </div>
+        <h4>Darbdavio sumokami mokesciai</h4>
+        <div class="sodra">
+            <h4>Sodra. 31.18%: <span class="sodra"></span> €</h4>
+        </div>
+        <div class="darbKaina">
+            <h4>Visa darbo vietos kaina: <span class="darbKaina"></span> €</h4>
+        </div>
+    </form>
+</body>
+</html>
